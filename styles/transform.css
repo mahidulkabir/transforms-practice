@@ -10,9 +10,10 @@
     height: 200px;
     background-color: azure;
     margin-left: 50px;
-    transform: translate(20px);
-    
+     transition: background-color 500ms ease-in 500ms, transform 500ms ease-in ;
 }
 .inner:hover{
-    transform: rotate(40deg) scale(.7 , .6);
+
+    background-color: aqua;
+    transform: rotate(10deg) scale(1.1) translateX(20px);
 }
